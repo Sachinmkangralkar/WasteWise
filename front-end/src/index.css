@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.custom-table-color {
+    background-color: #8bb29c;
+}
+.w-60 {
+    width: 37rem;
+}
+mg, video {
+    max-width: 84%;
+    height: 99%;
+}
+.w-full {
+    width: 80%;
+}
